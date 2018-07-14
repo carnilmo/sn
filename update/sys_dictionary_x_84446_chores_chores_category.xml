@@ -54,15 +54,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-07-07 17:48:05</sys_created_on>
-        <sys_id>e4debe134f031300250b8c318110c781</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_id>9007dd6d4f131300250b8c318110c791</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Category</sys_name>
         <sys_package display_value="Chores" source="x_84446_chores">717e32d34f031300250b8c318110c78f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Chores">717e32d34f031300250b8c318110c78f</sys_scope>
         <sys_update_name>sys_dictionary_x_84446_chores_chores_category</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-07 18:18:53</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-07-14 10:00:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

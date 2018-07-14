@@ -18,13 +18,15 @@
         <digest_from/>
         <digest_html/>
         <digest_reply_to/>
-        <digest_separator_html><![CDATA[<br><hr><br>]]></digest_separator_html>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
         <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
         <digest_subject/>
         <digest_template/>
         <digest_text/>
         <digestable>false</digestable>
-        <event_name/>
+        <event_name>approval.cancelled</event_name>
         <event_parm_1>false</event_parm_1>
         <event_parm_2>false</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
@@ -37,7 +39,10 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html/>
+        <message_html><![CDATA[<p>Chore ${number} created by ${opened_by} has been assigned to you.</p>
+<p>Assigned to: ${assigned_to}</p>
+<p>Category: ${category}</p>
+<p>Priority: ${priority}</p>]]></message_html>
         <message_list>05a6c3174f431300250b8c318110c7bd</message_list>
         <message_text/>
         <name>Chore Assignment</name>
@@ -51,7 +56,7 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject/>
+        <subject>A Chore has been assigned to you!</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -59,17 +64,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>07f687174f431300250b8c318110c78d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Chore Assignment</sys_name>
         <sys_overrides/>
         <sys_package display_value="Chores" source="x_84446_chores">717e32d34f031300250b8c318110c78f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Chores">717e32d34f031300250b8c318110c78f</sys_scope>
         <sys_update_name>sysevent_email_action_07f687174f431300250b8c318110c78d</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-07 18:24:50</sys_updated_on>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2018-07-14 09:58:04</sys_updated_on>
         <sys_version>2</sys_version>
-        <template/>
+        <template display_value="Chore Template">81c701654f131300250b8c318110c776</template>
         <type>email</type>
         <weight>0</weight>
     </sysevent_email_action>

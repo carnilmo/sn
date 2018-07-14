@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_84446_chores.chores_user" name="x_84446_chores.chores_user">f6ce3e1f4f031300250b8c318110c74f</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-07 17:47:12</sys_created_on>
+        <sys_id>72ce3e1f4f031300250b8c318110c752</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f6ce3e1f4f031300250b8c318110c74f</sys_name>
+        <sys_package display_value="Chores" source="x_84446_chores">717e32d34f031300250b8c318110c78f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Chores">717e32d34f031300250b8c318110c78f</sys_scope>
+        <sys_update_name>sys_embedded_help_role_72ce3e1f4f031300250b8c318110c752</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-07 17:47:12</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

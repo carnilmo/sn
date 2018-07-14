@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-07 17:47:13</sys_created_on>
+        <sys_id>cbce725f4f031300250b8c318110c7a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_84446_chores_chores.x_84446_chores.chores_user</sys_name>
+        <sys_package display_value="Chores" source="x_84446_chores">717e32d34f031300250b8c318110c78f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Chores">717e32d34f031300250b8c318110c78f</sys_scope>
+        <sys_security_acl display_value="x_84446_chores_chores">83ce725f4f031300250b8c318110c79f</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_cbce725f4f031300250b8c318110c7a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-07 17:47:13</sys_updated_on>
+        <sys_user_role display_value="x_84446_chores.chores_user" name="x_84446_chores.chores_user">f6ce3e1f4f031300250b8c318110c74f</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

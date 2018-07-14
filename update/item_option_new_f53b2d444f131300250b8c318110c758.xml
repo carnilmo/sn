@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="item_option_new">
+    <item_option_new action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <attributes/>
+        <cat_item display_value="Create a chore">f10aad444f131300250b8c318110c785</cat_item>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field>name</choice_field>
+        <choice_table>sys_user</choice_table>
+        <create_roles/>
+        <default_html_value/>
+        <default_value/>
+        <delete_roles/>
+        <delivery_plan/>
+        <description/>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <example_text>not Marek</example_text>
+        <field>assigned_to</field>
+        <global>false</global>
+        <help_tag>More information</help_tag>
+        <help_text>Pick the person you least like from the list</help_text>
+        <include_none>false</include_none>
+        <instructions><![CDATA[<p>here is the instruction on how to make this incredibly tough choice: pick the first one from the left</p>]]></instructions>
+        <layout>normal</layout>
+        <list_table/>
+        <lookup_label/>
+        <lookup_price/>
+        <lookup_table/>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value/>
+        <macro/>
+        <mandatory>true</mandatory>
+        <map_to_field>true</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>assigned_to</name>
+        <order/>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <question_text>Who do you nominate for this mighty quest?</question_text>
+        <read_roles/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table>x_84446_chores_chores</record_producer_table>
+        <reference>sys_user</reference>
+        <reference_qual>javascript:'sys_idIN' + getRoledUsers('IN','x_84446_chores.chores_user').join(",");</reference_qual>
+        <reference_qual_condition/>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>true</show_help>
+        <show_help_on_load>false</show_help_on_load>
+        <sp_widget/>
+        <summary_macro/>
+        <sys_class_name>item_option_new</sys_class_name>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2018-07-09 19:39:25</sys_created_on>
+        <sys_id>f53b2d444f131300250b8c318110c758</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Who do you nominate for this mighty quest?</sys_name>
+        <sys_package display_value="Chores" source="x_84446_chores">717e32d34f031300250b8c318110c78f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Chores">717e32d34f031300250b8c318110c78f</sys_scope>
+        <sys_update_name>item_option_new_f53b2d444f131300250b8c318110c758</sys_update_name>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2018-07-09 20:52:18</sys_updated_on>
+        <table/>
+        <tooltip>don't pick Marek</tooltip>
+        <type>8</type>
+        <ui_page/>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
+        <variable_name/>
+        <variable_set/>
+        <variable_width/>
+        <visibility>1</visibility>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <write_roles/>
+    </item_option_new>
+    <sys_translated_text action="delete_multiple" query="documentkey=f53b2d444f131300250b8c318110c758"/>
+    <fx_price action="delete_multiple" query="id=f53b2d444f131300250b8c318110c758"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price_if_checked</field>
+        <id>f53b2d444f131300250b8c318110c758</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2018-07-09 19:39:25</sys_created_on>
+        <sys_id>c6ab25844f131300250b8c318110c778</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2018-07-09 19:39:25</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_price_if_checked</field>
+        <id>f53b2d444f131300250b8c318110c758</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>marek.admin</sys_created_by>
+        <sys_created_on>2018-07-09 19:39:25</sys_created_on>
+        <sys_id>8eab25844f131300250b8c318110c777</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>marek.admin</sys_updated_by>
+        <sys_updated_on>2018-07-09 19:39:25</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>
